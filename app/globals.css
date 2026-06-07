@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --muted: #475569;
+  --muted-soft: #64748b;
+  --surface: rgb(255 255 255 / 0.78);
+  --surface-hover: rgb(241 245 249 / 0.95);
+  --border: rgb(15 23 42 / 0.1);
+  --border-soft: rgb(15 23 42 / 0.06);
+  --heading-from: #0f172a;
+  --heading-to: #64748b;
+  --btn-primary-bg: #0f172a;
+  --btn-primary-text: #ffffff;
+  --btn-outline-border: rgb(15 23 42 / 0.15);
+  --btn-outline-text: #0f172a;
+  --btn-outline-hover: rgb(15 23 42 / 0.05);
+  --nav-bg: rgb(255 255 255 / 0.72);
+  --nav-bg-scrolled: rgb(255 255 255 / 0.9);
+  --nav-link: #475569;
+  --nav-link-hover: #0f172a;
+  --input-bg: rgb(241 245 249 / 0.95);
+  --section-alt: rgb(241 245 249 / 0.65);
+  --timeline: rgb(15 23 42 / 0.12);
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --muted: #9ca3af;
+  --muted-soft: #6b7280;
+  --surface: rgb(255 255 255 / 0.05);
+  --surface-hover: rgb(255 255 255 / 0.1);
+  --border: rgb(255 255 255 / 0.1);
+  --border-soft: rgb(255 255 255 / 0.05);
+  --heading-from: #ffffff;
+  --heading-to: #9ca3af;
+  --btn-primary-bg: #ffffff;
+  --btn-primary-text: #000000;
+  --btn-outline-border: rgb(255 255 255 / 0.2);
+  --btn-outline-text: #ffffff;
+  --btn-outline-hover: rgb(255 255 255 / 0.1);
+  --nav-bg: rgb(0 0 0 / 0.3);
+  --nav-bg-scrolled: rgb(0 0 0 / 0.6);
+  --nav-link: #d1d5db;
+  --nav-link-hover: #ffffff;
+  --input-bg: rgb(0 0 0 / 0.3);
+  --section-alt: rgb(0 0 0 / 0.2);
+  --timeline: rgb(255 255 255 / 0.1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+@layer components {
+  .theme-heading {
+    font-weight: 700;
+    background-image: linear-gradient(
+      to right,
+      var(--heading-from),
+      var(--heading-to)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .theme-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    border: 1px solid var(--border);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--muted);
+  }
+
+  .theme-text-muted {
+    color: var(--muted);
+  }
+
+  .theme-text-soft {
+    color: var(--muted-soft);
+  }
+
+  .theme-card {
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    transition: background-color 0.2s ease, transform 0.3s ease;
+  }
+
+  .theme-card-hover:hover {
+    background: var(--surface-hover);
+  }
+
+  .theme-btn-primary {
+    border-radius: 9999px;
+    background: var(--btn-primary-bg);
+    color: var(--btn-primary-text);
+    font-weight: 500;
+    transition: transform 0.2s ease;
+  }
+
+  .theme-btn-primary:hover {
+    transform: scale(1.05);
+  }
+
+  .theme-btn-outline {
+    border-radius: 9999px;
+    border: 1px solid var(--btn-outline-border);
+    color: var(--btn-outline-text);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+
+  .theme-btn-outline:hover {
+    background: var(--btn-outline-hover);
+  }
+
+  .theme-nav-link {
+    color: var(--nav-link);
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+
+  .theme-nav-link:hover {
+    color: var(--nav-link-hover);
+    transform: translateY(-1px);
+  }
+
+  .theme-input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    background: var(--input-bg);
+    color: var(--foreground);
+    outline: none;
+  }
+
+  .theme-section-alt {
+    background: var(--section-alt);
+  }
+
+  .theme-timeline {
+    border-color: var(--timeline);
+  }
+}

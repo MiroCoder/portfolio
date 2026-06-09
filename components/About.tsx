@@ -21,7 +21,7 @@ export default function About() {
           </p>
 
           <p className="mt-4 theme-text-soft leading-relaxed">
-            My freelance and internship background covers backend services,
+            My internship and project-based background covers backend services,
             API-driven frontend integration, PostgreSQL schemas, authentication,
             validation, testing, and Git-based delivery — with daily programming
             discipline and strong focus on offer-ready backend portfolio growth.

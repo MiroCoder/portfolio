@@ -48,7 +48,7 @@ export default function Hero() {
             <p className="mt-6 theme-text-soft max-w-xl">
               Backend developer focused on REST APIs, layered backend logic,
               relational databases, and practical web applications — with
-              freelance delivery, clean project ownership, and recruiter-ready
+              project-based development, clean project ownership, and recruiter-ready
               portfolio growth.
             </p>
 

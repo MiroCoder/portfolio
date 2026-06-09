@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "Freelance Full-Stack Developer",
-    company: "Upwork / Remote",
-    period: "Sep 2024 – May 2026",
+    title: "Backend Developer — Portfolio Projects",
+    company: "GitHub / Personal Projects",
+    period: "Sep 2024 – Present",
     accent: "purple",
     highlights: [
       "Delivered backend and full-stack features for international web/SaaS clients",

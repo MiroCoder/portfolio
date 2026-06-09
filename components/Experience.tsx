@@ -9,12 +9,11 @@ const experiences = [
     period: "Sep 2024 – Present",
     accent: "purple",
     highlights: [
-      "Delivered backend and full-stack features for international web/SaaS clients",
-      "Built REST API features with Java/Spring Boot and Python/Django/FastAPI using layered architecture and validation flows",
-      "Designed PostgreSQL/SQL data models, relationships, and queries for structured application data",
-      "Integrated React/HTML/CSS frontend views with API-driven backend logic and dynamic user flows",
-      "Implemented AI/LLM automation with OpenAI/Claude APIs — content generation, response automation, and structured JSON output",
-      "Used Git/GitHub, Docker, and AWS basics for reproducible development and deployment workflows",
+      "Built backend and full-stack portfolio projects using Java/Spring Boot and Python/Django.",
+      "Developed REST APIs, CRUD logic, validation, layered architecture and SQL database models.",
+      "Integrated simple HTML/CSS/JavaScript and React/Vite frontend views with backend APIs.",
+      "Used Git/GitHub for version control, project delivery and public code portfolio.",
+      "Practiced testing, debugging, refactoring and AI-assisted development while keeping manual code ownership."
     ],
   },
   {

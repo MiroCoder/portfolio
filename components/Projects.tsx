@@ -8,11 +8,12 @@ const projects = [
     description:
       "Spring Boot REST API for habit tracking, completion stats, daily discipline logic, and analytics.",
     details: [
-      { label: "Backend", value: "CRUD endpoints, completion actions, search, priority filtering, validation" },
-      { label: "Architecture", value: "Controller, service, repository/model logic with Maven build" },
+      { label: "Backend", value: "REST API, CRUD endpoints, completion/undo actions, search, priority filtering, validation" },
+      { label: "Architecture", value: "Controller-Service-Repository structure, JdbcTemplate persistence, Maven build" },
+      { label: "Frontend", value: "HTML, CSS, JavaScript dashboard connected to backend API" },
       { label: "Testing", value: "JUnit coverage for business logic and statistics" },
     ],
-    tags: ["Java", "Spring Boot", "PostgreSQL", "JUnit", "Maven"],
+    tags: ["Java", "Spring Boot", "REST API", "PostgreSQL", "JdbcTemplate", "JUnit 5", "Maven", "JavaScript"],
     url: "https://github.com/MiroCoder/habit-tracker-api",
   },
   {

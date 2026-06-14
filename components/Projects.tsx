@@ -29,7 +29,7 @@ const projects = [
     url: "https://github.com/MiroCoder/Beauty-of-Warsaw",
   },
   {
-    title: "Game Web Repeatin",
+    title: "Django Game Store Web App",
     description:
       "Django web app for browsing, buying, and managing a video game catalog with user profile and library.",
     details: [

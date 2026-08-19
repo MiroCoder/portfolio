@@ -4,23 +4,18 @@ import { motion } from "framer-motion";
 
 const education = [
   {
-    degree: "Master's Degree, Informatics",
-    school: "University of Zielona Góra, Poland",
-    period: "Expected: Sep 2027",
-  },
-  {
     degree: "Bachelor of Science, Information Technology",
-    school: "BSUIR, Minsk, Belarus",
+    school: "Belarusian State University of Informatics and Radioelectronics (BSUIR), Minsk",
     period: "Graduated: Jun 2024",
   },
 ];
 
 const languages = [
-  "English — C1 / professional working proficiency",
-  "Polish — professional working proficiency",
-  "German — basic, improving daily",
-  "Russian — native",
-  "Belarusian — native",
+  "English — C1",
+  "Polish — B2",
+  "German — A1–A2",
+  "Russian — C2 / native",
+  "Belarusian — C2 / native",
 ];
 
 export default function Education() {
@@ -55,9 +50,8 @@ export default function Education() {
                 ))}
               </ul>
               <p className="mt-6 text-sm theme-text-soft leading-relaxed">
-                Work style: daily programming discipline, project-based learning,
-                code written and understood, structured delivery with long-term
-                stability.
+                Comfortable working with technical documentation, APIs, Git workflows,
+                and English-language development resources.
               </p>
             </div>
           </div>

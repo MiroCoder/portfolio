@@ -4,7 +4,7 @@ import ThemeProvider from "@/components/ThemeProvider";
 export const metadata = {
   title: "Miroslav Nekhaev | Backend Developer",
   description:
-    "Portfolio of Miroslav Nekhaev — Backend Developer specializing in Java, Spring Boot, Python, Django, REST APIs, and PostgreSQL.",
+    "Backend developer portfolio of Miroslav Nekhaev — Python, Django, FastAPI, Java, Spring Boot, PostgreSQL, REST APIs, Docker, and applied AI.",
 };
 
 export default function RootLayout({

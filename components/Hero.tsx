@@ -34,7 +34,7 @@ export default function Hero() {
         >
           <div>
             <div className="theme-badge mb-6">
-              Backend Developer • Java & Python
+              Backend Developer · Python & Java
             </div>
 
             <h1 className="theme-heading text-4xl md:text-6xl">
@@ -42,14 +42,14 @@ export default function Hero() {
             </h1>
 
             <p className="mt-4 text-lg theme-text-muted">
-              Spring Boot • Django • REST APIs • PostgreSQL • React
+              Python / Django / FastAPI · Java / Spring Boot · PostgreSQL · Applied AI
             </p>
 
             <p className="mt-6 theme-text-soft max-w-xl">
-              Backend developer focused on REST APIs, layered backend logic,
-              relational databases, and practical web applications — with
-              project-based development, clean project ownership, and recruiter-ready
-              portfolio growth.
+              I build backend and full-stack applications with REST APIs, relational
+              databases, authentication, validation, automated tests, and practical
+              product logic. My current work spans Python backend, Java/Spring Boot,
+              and applied LLM integrations.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -89,7 +89,7 @@ export default function Hero() {
             />
             <div className="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-black/90 via-black/50 to-transparent">
               <p className="font-medium text-white">Miroslav Nekhaev</p>
-              <p className="text-sm text-gray-300 mt-1">Zielona Góra, Poland</p>
+              <p className="text-sm text-gray-300 mt-1">Poland / Belarus</p>
             </div>
           </div>
         </motion.div>

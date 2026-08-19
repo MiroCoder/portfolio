@@ -1,6 +1,6 @@
-# Miroslav Nekhaev — Developer Portfolio
+# Miroslav Nekhaev — Backend Developer Portfolio
 
-Personal developer portfolio presenting my backend, full-stack and software projects.
+Personal portfolio focused on backend engineering, production-style projects, and practical API-driven applications.
 
 ## Live Portfolio
 
@@ -8,11 +8,12 @@ Personal developer portfolio presenting my backend, full-stack and software proj
 
 ## Focus
 
+- Python / Django / FastAPI backend development
 - Java / Spring Boot backend development
-- Python / Django development
-- PostgreSQL and relational databases
-- REST API design and integration
-- Full-stack product development
+- PostgreSQL and relational database design
+- REST API design, validation, authentication, and testing
+- Docker, CI workflows, and deployment-oriented project structure
+- Applied AI / LLM API integrations
 
 ## Portfolio Stack
 
@@ -26,17 +27,15 @@ Personal developer portfolio presenting my backend, full-stack and software proj
 - About
 - Technical stack
 - Experience
-- Education
-- Selected projects
+- Education & languages
+- Featured projects
 - Contact
 
 ## Featured Work
 
-The portfolio links to my main GitHub projects, including:
-
-- Habit Tracker API — Java / Spring Boot / PostgreSQL
-- Beauty of Warsaw — Java / Spring Boot / React / PostgreSQL
-- Web Systems of Medical Clinic — Python / Django
+- Habit Tracker API — Java 21 / Spring Boot / PostgreSQL / Docker / CI / OpenAPI
+- Warsaw Salon Explorer — Java / Spring Boot / React / PostgreSQL / Spring Security
+- Medical Clinic Management System — Python / Django
 - Django Game Store — Python / Django
 
 ## Run Locally

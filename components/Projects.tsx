@@ -26,7 +26,7 @@ const projects = [
       { label: "Quality", value: "Service-layer unit tests, error handling, environment-based configuration" },
     ],
     tags: ["Java", "Spring Boot", "Spring Security", "React", "PostgreSQL", "JUnit"],
-    url: "https://github.com/MiroCoder/Beauty-of-Warsaw",
+    url: "https://github.com/MiroCoder/warsaw-salon-explorer",
   },
   {
     title: "Django Game Store",
@@ -38,7 +38,7 @@ const projects = [
       { label: "UI", value: "HTML/CSS catalog and account workflows" },
     ],
     tags: ["Python", "Django", "SQLite", "Pillow", "HTML/CSS"],
-    url: "https://github.com/MiroCoder/django-game-store-web-app",
+    url: "https://github.com/MiroCoder/django-game-store",
   },
   {
     title: "Medical Clinic Management System",
@@ -50,7 +50,7 @@ const projects = [
       { label: "Delivery", value: "Environment-based Django settings, requirements file, demo data, and documented setup" },
     ],
     tags: ["Python", "Django", "SQL", "SQLite", "HTML/CSS"],
-    url: "https://github.com/MiroCoder/Web-systems-of-medical-clinic",
+    url: "https://github.com/MiroCoder/django-medical-clinic",
   },
 ];
 

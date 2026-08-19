@@ -6,50 +6,50 @@ const projects = [
   {
     title: "Habit Tracker API",
     description:
-      "Spring Boot REST API for habit tracking, completion stats, daily discipline logic, and analytics.",
+      "Production-style habit tracking application with REST APIs, PostgreSQL persistence, automated tests, Docker, CI, and OpenAPI documentation.",
     details: [
-      { label: "Backend", value: "REST API, CRUD endpoints, completion/undo actions, search, priority filtering, validation" },
-      { label: "Architecture", value: "Controller-Service-Repository structure, JdbcTemplate persistence, Maven build" },
-      { label: "Frontend", value: "HTML, CSS, JavaScript dashboard connected to backend API" },
-      { label: "Testing", value: "JUnit coverage for business logic and statistics" },
+      { label: "Backend", value: "Spring Boot REST API, CRUD, validation, statistics, streaks, scheduling, and daily reset logic" },
+      { label: "Architecture", value: "Controller-Service-Repository structure, DTOs, JdbcTemplate persistence, centralized error handling" },
+      { label: "Delivery", value: "Docker Compose, GitHub Actions CI, OpenAPI/Swagger, Maven Wrapper" },
+      { label: "Testing", value: "JUnit 5 and Mockito with isolated H2 test database" },
     ],
-    tags: ["Java", "Spring Boot", "REST API", "PostgreSQL", "JdbcTemplate", "JUnit 5", "Maven", "JavaScript"],
+    tags: ["Java 21", "Spring Boot", "PostgreSQL", "REST API", "Docker", "GitHub Actions", "JUnit 5", "OpenAPI"],
     url: "https://github.com/MiroCoder/habit-tracker-api",
   },
   {
-    title: "Beauty of Warsaw — Salon Explorer",
+    title: "Warsaw Salon Explorer",
     description:
-      "Full-stack web application for browsing beauty and hair salons in Warsaw with real salon records.",
+      "Full-stack application for browsing and managing Warsaw beauty and hair salon data.",
     details: [
       { label: "Backend", value: "Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, REST endpoints" },
-      { label: "Frontend", value: "React/Vite listing page, district filter, detail view, protected admin edit" },
-      { label: "Features", value: "Error handling, structured salon data, admin workflow" },
+      { label: "Frontend", value: "React/Vite listing page, district filtering, detail views, protected admin editing" },
+      { label: "Quality", value: "Service-layer unit tests, error handling, environment-based configuration" },
     ],
-    tags: ["Java", "Spring Boot", "React", "Vite", "PostgreSQL"],
+    tags: ["Java", "Spring Boot", "Spring Security", "React", "PostgreSQL", "JUnit"],
     url: "https://github.com/MiroCoder/Beauty-of-Warsaw",
   },
   {
-    title: "Django Game Store Web App",
+    title: "Django Game Store",
     description:
-      "Django web app for browsing, buying, and managing a video game catalog with user profile and library.",
+      "Django application for browsing a video game catalog and managing user profiles and personal game libraries.",
     details: [
-      { label: "Backend", value: "Django ORM, views, templates, admin panel, media handling" },
-      { label: "Database", value: "Relational models with SQLite/MySQL support" },
-      { label: "UI", value: "Responsive HTML/CSS with structured catalog workflows" },
+      { label: "Backend", value: "Django ORM, authentication flows, views, templates, admin panel, and media handling" },
+      { label: "Database", value: "Relational models with SQLite and Django migrations" },
+      { label: "UI", value: "HTML/CSS catalog and account workflows" },
     ],
-    tags: ["Python", "Django", "SQLite", "MySQL", "HTML/CSS"],
-    url: "https://github.com/MiroCoder/game-web-repeatin",
+    tags: ["Python", "Django", "SQLite", "Pillow", "HTML/CSS"],
+    url: "https://github.com/MiroCoder/django-game-store-web-app",
   },
   {
-    title: "Automated Patient Information System",
+    title: "Medical Clinic Management System",
     description:
-      "Graduation thesis project for patient registration, appointments, and medical records management.",
+      "Graduation project for patient profiles, medical records, doctor schedules, and appointment management.",
     details: [
-      { label: "Backend", value: "Django backend flow with authentication and validation" },
-      { label: "Modules", value: "Reporting tools, appointment handling, medical records" },
-      { label: "Database", value: "SQL database storage with structured clinic workflows" },
+      { label: "Backend", value: "Django application with authentication, validation, relational models, and admin workflows" },
+      { label: "Modules", value: "Patient profiles, medical records, doctor schedules, appointment booking and history" },
+      { label: "Delivery", value: "Environment-based Django settings, requirements file, demo data, and documented setup" },
     ],
-    tags: ["Python", "Django", "SQL", "HTML/CSS"],
+    tags: ["Python", "Django", "SQL", "SQLite", "HTML/CSS"],
     url: "https://github.com/MiroCoder/Web-systems-of-medical-clinic",
   },
 ];
@@ -67,11 +67,11 @@ export default function Projects() {
           <h2 className="theme-heading text-3xl md:text-4xl">Featured Projects</h2>
           <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 mt-3" />
           <p className="mt-4 theme-text-muted max-w-2xl">
-            Selected backend and full-stack projects with clean structure, practical
-            APIs, database skills, and recruiter-ready presentation.
+            Selected backend and full-stack applications demonstrating API design,
+            relational data modeling, testing, deployment tooling, and frontend integration.
           </p>
           <div className="theme-badge mt-4">
-            Focus: Spring Boot APIs, Django backends, PostgreSQL, React/Vite integration
+            Java / Spring Boot · Python / Django · PostgreSQL · Docker · React
           </div>
           <div className="mt-12 grid md:grid-cols-2 gap-8">
             {projects.map((project, index) => (

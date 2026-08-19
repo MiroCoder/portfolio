@@ -15,21 +15,20 @@ export default function About() {
           <h2 className="theme-heading text-3xl md:text-4xl">About Me</h2>
           <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 mt-3" />
           <p className="mt-6 theme-text-muted leading-relaxed">
-            Backend developer with Java/Spring Boot and Python/Django experience,
-            focused on REST APIs, layered backend logic, relational databases, and
-            practical web applications.
+            Backend developer working across Python/Django and Java/Spring Boot,
+            with a strong focus on REST APIs, relational databases, validation,
+            authentication, testing, and maintainable application structure.
           </p>
 
           <p className="mt-4 theme-text-soft leading-relaxed">
-            My internship and project-based background covers backend services,
-            API-driven frontend integration, PostgreSQL schemas, authentication,
-            validation, testing, and Git-based delivery — with daily programming
-            discipline and strong focus on offer-ready backend portfolio growth.
+            My background includes a Python backend internship and continued development
+            of production-style portfolio applications using PostgreSQL, Docker,
+            automated tests, CI workflows, frontend API integration, and LLM APIs.
           </p>
           <div className="mt-8 flex gap-3 flex-wrap">
-            <span className="theme-badge">Spring Boot & Django</span>
+            <span className="theme-badge">Python & Java Backend</span>
             <span className="theme-badge">REST APIs & PostgreSQL</span>
-            <span className="theme-badge">AI / LLM Automation</span>
+            <span className="theme-badge">Applied AI / LLM APIs</span>
           </div>
         </motion.div>
 
@@ -42,16 +41,16 @@ export default function About() {
         >
           {[
             {
-              title: "Backend Engineering",
-              text: "Java 21, Spring Boot, Spring Data JPA, Spring Security, Maven, JUnit",
+              title: "Python Backend",
+              text: "Python, Django, DRF, FastAPI basics, ORM, REST APIs, authentication and validation",
             },
             {
-              title: "Python & Data Layer",
-              text: "Django, DRF, FastAPI basics, PostgreSQL, SQL modeling, ORM workflows",
+              title: "Java Backend",
+              text: "Java 21, Spring Boot, Spring Data JPA, Spring Security, Spring JDBC, Maven and JUnit",
             },
             {
-              title: "Delivery & Integration",
-              text: "React/Vite API integration, Git/GitHub, Docker & AWS basics, LLM APIs",
+              title: "Delivery & AI",
+              text: "PostgreSQL, Docker, GitHub Actions, React/Vite integration, OpenAI and Claude APIs",
             },
           ].map((item) => (
             <div

@@ -33,10 +33,10 @@ Personal portfolio focused on backend engineering, production-style projects, an
 
 ## Featured Work
 
-- Habit Tracker API — Java 21 / Spring Boot / PostgreSQL / Docker / CI / OpenAPI
-- Warsaw Salon Explorer — Java / Spring Boot / React / PostgreSQL / Spring Security
-- Medical Clinic Management System — Python / Django
-- Django Game Store — Python / Django
+- [Habit Tracker API](https://github.com/MiroCoder/habit-tracker-api) — Java 21 / Spring Boot / PostgreSQL / Docker / CI / OpenAPI
+- [Warsaw Salon Explorer](https://github.com/MiroCoder/warsaw-salon-explorer) — Java / Spring Boot / React / PostgreSQL / Spring Security
+- [Medical Clinic Management System](https://github.com/MiroCoder/django-medical-clinic) — Python / Django
+- [Django Game Store](https://github.com/MiroCoder/django-game-store) — Python / Django
 
 ## Run Locally
 

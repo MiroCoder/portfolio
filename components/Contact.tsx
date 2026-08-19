@@ -51,12 +51,12 @@ export default function Contact() {
             Let&apos;s Work Together
           </h2>
           <div className="theme-badge mt-4">
-            Available for freelance • backend roles • full-stack delivery
+            Open to Python backend · Java backend · junior / trainee opportunities
           </div>
           <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 mt-3" />
           <p className="mt-4 theme-text-muted max-w-2xl">
-            Based in Zielona Góra, Poland. Open to backend developer roles,
-            freelance projects, and practical API-driven application work.
+            Based between Poland and Belarus, with Polish residence status. Open to
+            backend engineering roles, internships, trainee programs, and remote opportunities.
           </p>
           <div className="mt-12 grid md:grid-cols-2 gap-10">
             <div className="space-y-4">

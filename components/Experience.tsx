@@ -9,11 +9,11 @@ const experiences = [
     period: "Sep 2024 – Present",
     accent: "purple",
     highlights: [
-      "Built backend and full-stack portfolio projects using Java/Spring Boot and Python/Django.",
-      "Developed REST APIs, CRUD logic, validation, layered architecture and SQL database models.",
-      "Integrated simple HTML/CSS/JavaScript and React/Vite frontend views with backend APIs.",
-      "Used Git/GitHub for version control, project delivery and public code portfolio.",
-      "Practiced testing, debugging, refactoring and AI-assisted development while keeping manual code ownership."
+      "Build backend and full-stack applications with Java/Spring Boot and Python/Django.",
+      "Design REST endpoints, CRUD flows, validation, layered architecture, and relational database models.",
+      "Integrate backend APIs with HTML/CSS/JavaScript and React/Vite interfaces.",
+      "Use Git/GitHub, Docker, automated tests, and CI workflows across portfolio projects.",
+      "Work with LLM APIs and AI-assisted development while reviewing and owning the resulting code."
     ],
   },
   {
@@ -22,9 +22,9 @@ const experiences = [
     period: "Mar 2024 – Sep 2024",
     accent: "blue",
     highlights: [
-      "Worked on web application tasks using Python, Django, SQL, HTML/CSS, and Git",
-      "Implemented backend features, validation, authentication-related logic, debugging, and testing-minded improvements",
-      "Practiced relational models, ORM workflows, API/backend flow, and structured development cycles",
+      "Worked on web application tasks using Python, Django, SQL, HTML/CSS, and Git.",
+      "Implemented backend features, validation, authentication-related logic, debugging, and iterative improvements.",
+      "Practiced relational models, ORM workflows, backend request flows, and structured development cycles.",
     ],
   },
 ];
@@ -42,11 +42,11 @@ export default function Experience() {
           <h2 className="theme-heading text-3xl md:text-4xl">Experience</h2>
           <div className="w-16 h-[2px] bg-gradient-to-r from-purple-500 to-blue-500 mt-3" />
           <p className="mt-4 theme-text-muted max-w-2xl">
-            Freelance delivery, internship experience, and daily backend portfolio
-            development focused on practical APIs, databases, and clean engineering.
+            Internship experience and continuous backend project development focused on
+            APIs, relational databases, testing, and maintainable application structure.
           </p>
           <div className="theme-badge mt-4">
-            Focus: Java/Spring Boot, Python/Django, REST APIs, PostgreSQL, Git delivery
+            Java / Spring Boot · Python / Django · REST APIs · PostgreSQL · Git
           </div>
           <div className="mt-12 relative border-l theme-timeline pl-6 space-y-12">
             {experiences.map((exp, index) => (
